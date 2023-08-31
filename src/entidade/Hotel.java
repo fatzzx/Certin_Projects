@@ -29,11 +29,6 @@ public class Hotel {
 				System.out.println("Nome: " + elemento.getNome());
 				System.out.println("Email: " + elemento.getEmail());				
 			}
-		}
-		
-		
-	}
-	
-	
-
+		}		
+	}	
 }
