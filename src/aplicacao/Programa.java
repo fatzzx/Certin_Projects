@@ -12,12 +12,6 @@ public class Programa {
 		System.out.println("**************************************");
 	}
 	
-
-	public static void limpaTerminal() {
-		System.out.print("\033[H\033[2J"); 
-	    System.out.flush(); 
-	}
-
 	
 	
 	public static void main(String[] args) {
@@ -46,7 +40,6 @@ public class Programa {
 			default:
 				break;
 			}
-			limpaTerminal();
 		}while(op != 3);
 		
 		
