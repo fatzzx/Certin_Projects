@@ -8,7 +8,7 @@ public class Postagem {
 	private ArrayList<Comentarios> comentarios = new ArrayList<>();
 	private Date momento = new Date();
 	private String titulo;
-	private  String conteudo;
+	private String conteudo;
 	private Integer curtidas;
 	
 	
@@ -26,34 +26,43 @@ public class Postagem {
 	public ArrayList<Comentarios> getComentarios() {
 		return comentarios;
 	}
+
 	public void setComentarios(ArrayList<Comentarios> comentarios) {
 		this.comentarios = comentarios;
 	}
+
 	public Date getMomento() {
 		return momento;
 	}
+
 	public void setMomento(Date momento) {
 		this.momento = momento;
 	}
+
 	public String getTitulo() {
 		return titulo;
 	}
+
 	public void setTitulo(String titulo) {
 		this.titulo = titulo;
 	}
+
 	public String getConteudo() {
 		return conteudo;
 	}
+
 	public void setConteudo(String conteudo) {
 		this.conteudo = conteudo;
 	}
+
 	public Integer getCurtidas() {
 		return curtidas;
 	}
+
 	public void setCurtidas(Integer curtidas) {
 		this.curtidas = curtidas;
 	}
-	
+
 	public void addComentario(Comentarios comentario) {
 		comentarios.add(comentario);
 	}
